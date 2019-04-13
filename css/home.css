@@ -1,10 +1,10 @@
-#hplogo {
+/* #hplogo {
     content: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272 92" width="272" height="92"><path fill="#EA4335" d="M115.75 47.18c0 12.77-9.99 ... 4.41-6.46 5.1-11.65l-22.49.01z"/></svg>');
-    height: 310px !important;
+    height: 95px !important;
     width: 272px !important;
-}
+} */
 
-#logocont {
+/* #logocont {
     content: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272 92" width="120" height="44"><path fill="#EA4335" d="M115.75 47.18c0 12.77-9.99 ... 4.41-6.46 5.1-11.65l-22.49.01z"/></svg>');
 }
 
