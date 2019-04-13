@@ -44,7 +44,7 @@ body{
     left: 620px;
     top: 200px;
     z-index: 6;
-    transition: left 2s;
+    transition: left 5s;
   }
   .trex1
   {
@@ -62,4 +62,15 @@ body{
   }
   .errormessage{
     white-space: nowrap;
+  }
+  .signature {
+    font: 200% 'Arizonia', Helvetica, sans-serif;
+    color: #2b2b2b;
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    z-index: 6;
   }
