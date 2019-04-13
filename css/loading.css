@@ -1,6 +1,6 @@
  .bar {
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     border-color: rgb(0, 0, 0);
     border-radius: 0px;
     background-color: transparent;
@@ -22,7 +22,7 @@
     background-color: #ddd;
   }
   .loader:before{
-    top:25%;
+    top:20%;
     display: block;
     position: absolute;;
     content: "";
