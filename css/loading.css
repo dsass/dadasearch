@@ -1,16 +1,17 @@
-/* .bar {
+ .bar {
     border-style: solid;
     border-width: 1px;
     border-color: rgb(0, 0, 0);
-    border-radius: 10px;
+    border-radius: 0px;
     background-color: transparent;
     position: absolute;
-    left: 400px;
-    top: 243px;
-    width: 500px;
-    height: 40px;
-    z-index: 3;
+    left: 334px;
+    top: 258px;
+    width: 649px;
+    height: 19px;
+    z-index: 4;
   }
+  /*
   .barfilling {
 
     border-radius: 10px;
@@ -26,12 +27,12 @@
   }
    */
    .loader {
-    top:25%;
+    top:250px;
     left: 25%;
     height: 20px;
     width: 50%;
     position: relative;
-    overflow: hidden;
+    
     background-color: #ddd;
   }
   .loader:before{
@@ -43,13 +44,13 @@
     width: 200px;
     height: 20px;
     background-color: #2980b9;
-    animation: loading 20s;
+    animation: loading 15s;
   }
   
   @keyframes loading {
-      from {left: -25%; width: -30%;}
+      from {left: 0%; width: -30%;}
       50% {width: 50%;}
       70% {width: 70%;}
       80% {width: 80%;}
-      to {width: 100%;}
+      to {width: 130%;}
   }
