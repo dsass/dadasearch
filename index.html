@@ -1,10 +1,10 @@
-<!-- /exercises/03-jquery-multipledivs.html -->
 <!DOCTYPE html>
 <html>
   <head>
     <title>"Google"</title>
     <link rel="stylesheet" href="css/home.css">
-    <script src="../js/libs/jquery-3.3.1.min.js"></script>
+
+    <!-- <script src="../js/libs/jquery-3.3.1.min.js"></script> -->
   </head>
   <body>
     <!-- <svg id="hplogo">
@@ -49,8 +49,8 @@
       </div>
       <form class="tsf nj" action="/search" style="overflow:visible" id="tsf" method="GET" name="f" onsubmit="return q.value!=''" role="search" _lpchecked="1">
         <div id="tophf">
-          <input name="source" type="hidden" value="hp">
-          <input value="IReyXMb2Kf-t0PEP4PSvoAg" name="ei" type="hidden">
+          <!-- <input name="source" type="hidden" value="hp"> -->
+          <!-- <input value="IReyXMb2Kf-t0PEP4PSvoAg" name="ei" type="hidden"> -->
         </div>
         <div jsmodel="vWNDde" jsdata="MuIEvd;;ATJ/ek">
           <div jscontroller="mvYTse" class="A8SBwf" jsaction="DkpM0b:d3sQLd;IQOavd:dFyQEf;XzZZPe:jI3wzf;Aghsf:AVsnlb;iHd9U:Q7Cnrc;f5hEHe:G0jgYd;vmxUb:j3bJnb;R2c5O:LuRugf;qiCkJd:ANdidc;NOg9L:HLgh3;uGoIkd:epUokb;zLdLw:eaGBS;rcuQ6b:npT2md">
@@ -71,7 +71,9 @@
                   <style>.gLFyf{background-color:transparent;border:none;margin:0;padding:0;color:rgba(0,0,0,.87);word-wrap:break-word;outline:none;display:flex;flex:100%;-webkit-tap-highlight-color:transparent;margin-top:-37px}.minidiv .gLFyf{margin-top:-34px}.a4bIc{display:flex;flex:1;flex-wrap:wrap}.vdLsw{color:transparent;flex:100%;white-space:pre}.vdLsw span{background:url("/images/experiments/wavy-underline.png") repeat-x scroll 0 100% transparent;padding:0 0 10px 0}</style>
                   <div class="vdLsw gsfi" jsname="vdLsw">
                   </div>
-                  <input class="gLFyf gsfi" maxlength="2048" name="q" type="text" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value="" aria-label="Search"></div>
+                  <span class="blinking-cursor">|</span>
+                  <input id="searchfield" class="gLFyf gsfi" maxlength="100" name="q" type="text" color="white" jsaction="paste:puy29d" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" role="combobox" spellcheck="false" title="Search" value="" aria-label="Search" autofocus>
+                </div>
                   <div class="dRYYxd">
                     <style>.dRYYxd{display:flex;flex:0 0 auto;margin-top:-5px;align-items:stretch;flex-direction:row}.minidiv .dRYYxd{margin-top:0}</style>
                     <style>.JC0tCe{flex:1 0 auto;display:flex;cursor:pointer;align-items:center;border:0;background:transparent;outline:none;padding:0 8px;width:24px;line-height:44px}.hb2Smf{background:url('//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') 0 0 no-repeat;height:24px;width:24px;background-size:24px;vertical-align:middle}.minidiv .JC0tCe{line-height:32px}.minidiv .hb2Smf{background-size:20px 20px;height:20px;width:16px}</style>
@@ -83,8 +85,8 @@
               </div>
               <div class="FPdoLc VlcLAe">
                 <center>
-                  <input value="Google Search" aria-label="Google Search" name="btnK" type="submit">
-                  <input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" id="gbqfbb" name="btnI" type="submit">
+                  <input value="Google Search" aria-label="Google Search" name="btnK" type="button" >
+                  <input value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" id="gbqfbb" name="btnI" type="button" onclick="window.location='Error.html';">
                 </center>
               </div>
             </div>
@@ -92,6 +94,6 @@
         </form>
       </div>
 
-
+  <script type="text/javascript" src="js/homepage.js"></script>
   </body>
 </html>
