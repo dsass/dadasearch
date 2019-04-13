@@ -1,5 +1,10 @@
 const searchBar = document.querySelector('#searchfield');
 
+searchBar.addEventListener('keydown', function(event) {
+  if (event.keyCode == 13) {
+    event.preventDefault();
+  }
+});
 searchBar.addEventListener('keyup', function(event) {
   let content = event.target.value;
   let last = content[content.length-1];
