@@ -4,28 +4,14 @@
     border-color: rgb(0, 0, 0);
     border-radius: 0px;
     background-color: transparent;
-    position: absolute;
+    position: relative;
     left: 334px;
     top: 258px;
     width: 649px;
     height: 19px;
     z-index: 4;
   }
-  /*
-  .barfilling {
 
-    border-radius: 10px;
-    background-color: rgb(2, 64, 134);
-    position: absolute;
-    left: 400px;
-    top: 244px;
-    width: 50px;
-    height: 40px;
-    z-index: 2;
-    transform: sc
-    translate()
-  }
-   */
    .loader {
     top:250px;
     left: 25%;
