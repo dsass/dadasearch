@@ -31,14 +31,14 @@
     left: 25%;
     height: 20px;
     width: 50%;
-    position: relative;
+    position: absolute;
     
     background-color: #ddd;
   }
   .loader:before{
     top:%25;
     display: block;
-    position: absolute;
+    position: absolute;;
     content: "";
     left: 0px;
     width: 200px;
