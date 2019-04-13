@@ -9,6 +9,17 @@ a {
     text-decoration: none;
 }
 
+.signature {
+    font: 200% 'Arizonia', serif;
+    color: #2b2b2b;
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+
 /* SEARCH BAR */
 .google-search {
     position: relative;
