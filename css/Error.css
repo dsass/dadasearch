@@ -14,7 +14,7 @@ body{
     height: 196px;
     z-index: 3;
   }
-  
+
   p {
     font-size: 20px;
     font-family: "Arial";
@@ -36,7 +36,7 @@ body{
     left: 775px;
     top: 340px;
     z-index: 6;
-  
+
   }
   .trex
   {
@@ -44,7 +44,7 @@ body{
     left: 620px;
     top: 200px;
     z-index: 6;
-    transition: left 2s;
+    transition: left 15s;
   }
   .trex1
   {
@@ -62,4 +62,15 @@ body{
   }
   .errormessage{
     white-space: nowrap;
+  }
+  .signature {
+    font: 200% 'Arizonia', serif;
+    color: #2b2b2b;
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    z-index: 6;
   }

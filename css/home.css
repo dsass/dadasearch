@@ -1,13 +1,78 @@
-/* #hplogo {
-    content: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272 92" width="272" height="92"><path fill="#EA4335" d="M115.75 47.18c0 12.77-9.99 ... 4.41-6.46 5.1-11.65l-22.49.01z"/></svg>');
-    height: 95px !important;
-    width: 272px !important;
-} */
-
-/* #logocont {
-    content: url('data:image/svg+xml;utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272 92" width="120" height="44"><path fill="#EA4335" d="M115.75 47.18c0 12.77-9.99 ... 4.41-6.46 5.1-11.65l-22.49.01z"/></svg>');
+.signature {
+  font: 200% 'Arizonia', serif;
+  color: #2b2b2b;
+  position: absolute;
+  text-align: right;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 1%;
+  margin-right: 2%;
 }
 
-input#gbqfbb, #sbtc .ds:nth-child(2) {
-    display: none !important
+#searchfield {
+  color: white;
+}
+
+.newtext {
+  position: absolute;
+  left: _px;
+  top: _px;
+}
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #000000;
+  margin-top: -8%;
+  margin-left: -6px;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
 }
