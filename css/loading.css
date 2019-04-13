@@ -4,27 +4,27 @@
     border-color: rgb(0, 0, 0);
     border-radius: 0px;
     background-color: transparent;
-    position: relative;
-    left: 334px;
-    top: 258px;
-    width: 649px;
-    height: 19px;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 50%;
+    height: 20px;
     z-index: 4;
   }
 
    .loader {
-    top:250px;
+    top:25%;
     left: 25%;
     height: 20px;
     width: 50%;
-    position: relative;
+    position: absolute;
     
     background-color: #ddd;
   }
   .loader:before{
-    top:%25;
+    top:25%;
     display: block;
-    position: relative;;
+    position: absolute;;
     content: "";
     left: 0px;
     width: 200px;
