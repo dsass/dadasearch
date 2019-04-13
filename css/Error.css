@@ -1,0 +1,65 @@
+body{
+    background-color: gainsboro;
+    overflow: hidden;
+  }
+  .rounded_rectangle {
+    border-radius: 5px;
+    stroke: gray;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    width: 540px;
+    height: 196px;
+    z-index: 3;
+  }
+  
+  p {
+    font-size: 20px;
+    font-family: "Arial";
+    color: rgb(89, 86, 86);
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+    left: 524px;
+    top: 250px;
+    width: 289px;
+    height: 15px;
+    z-index: 5;
+    display: inline-block;
+  }
+  a {
+    text-align: center;
+    text-decoration: inherit;
+    position: absolute;
+    left: 775px;
+    top: 340px;
+    z-index: 6;
+  
+  }
+  .trex
+  {
+    position: absolute;
+    left: 620px;
+    top: 200px;
+    z-index: 6;
+    transition: left 2s;
+  }
+  .trex1
+  {
+    position: absolute;
+    left: 620px;
+    top: 200px;
+    z-index: 6;
+    transition: left 5s;
+  }
+  #theButton {
+    position: absolute;
+    left: 535px;
+    top: 340px;
+    z-index: 6;
+  }
+  .errormessage{
+    white-space: nowrap;
+  }
