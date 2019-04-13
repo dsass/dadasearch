@@ -38,7 +38,7 @@
   .loader:before{
     top:%25;
     display: block;
-    position: absolute;
+    position: relative;
     content: "";
     left: 0px;
     width: 200px;
